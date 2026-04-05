@@ -1,0 +1,6 @@
+name: powershell_masquerading_as_windows_terminal_filter
+definition: search *
+description: >-
+  Filter macro for the PowerShell Masquerading as Windows Terminal detection.
+  Override this macro in your environment to exclude known-good activity,
+  such as authorized IT scripts that legitimately stage files in ProgramData.
